@@ -15,4 +15,4 @@
 
 
 ## 效果
-[image:63E89728-B994-4064-BF8B-020D51B8C93F-7377-000013620B9E0625/Nov-08-2019 16-34-24.gif]
+! [image] (https://github.com/bigxx/EASafeKeyboard/blob/master/%E6%95%88%E6%9E%9C.gif)
