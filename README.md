@@ -1,6 +1,9 @@
 # EASafeKeyboard
-自定义安全键盘，数字键盘随机打乱    
+
+自定义安全键盘，数字键盘随机打乱
+
 ---
+
 ## 使用
 创建*EASafeTextField*控件，该控件继承*UITextField*，可正常使用任何父类属性
 ```
@@ -11,6 +14,6 @@
    [self.view addSubview:textField];
 ```
 
-
+---
 ## 效果
 ![img](https://github.com/bigxx/EASafeKeyboard/blob/master/preview.gif)
