@@ -14,6 +14,8 @@
    [self.view addSubview:textField];
 ```
 
+
+
 ---
 ## 效果
 ![img](https://github.com/bigxx/EASafeKeyboard/blob/master/preview.gif)
