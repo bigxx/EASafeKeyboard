@@ -13,4 +13,4 @@
 
 
 ## 效果
-![image] (https://github.com/bigxx/EASafeKeyboard/blob/master/preview.gif)
+![img](https://github.com/bigxx/EASafeKeyboard/blob/master/preview.gif)
