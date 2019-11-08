@@ -98,7 +98,7 @@ static const CGFloat IconWidth = 15;
         
         _iconView = [[UIImageView alloc] init];
         _iconView.frame = CGRectMake(orignX, orignY, IconWidth, IconWidth);
-        _iconView.image = [UIImage imageNamed:@"keyboard_logo"];
+        _iconView.backgroundColor = [UIColor lightGrayColor];
     }
     return _iconView;
 }
