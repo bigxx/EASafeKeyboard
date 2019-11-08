@@ -15,4 +15,4 @@
 
 
 ## 效果
-! [image] (https://github.com/bigxx/EASafeKeyboard/blob/master/%E6%95%88%E6%9E%9C.gif)
+! [img] (https://github.com/bigxx/EASafeKeyboard/blob/master/%E6%95%88%E6%9E%9C.gif)
