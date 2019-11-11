@@ -7,18 +7,18 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "EASafeKeyboard"
-  spec.version      = "1.0.3"
-  spec.summary      = "自定义安全键盘"
-  spec.platform     = :ios, "8.0"
-  spec.frameworks   = "Foundation"
-  spec.description  = "自定义的安全键盘，数字键盘随机生成"
-  spec.homepage     = "https://github.com/bigxx/EASafeKeyboard"
-  spec.license      = "MIT"
-  spec.author       = { "bigxx" => "305506026@qq.com" }
-  spec.ios.deployment_target = "8.0"
-  spec.source       = { :git => "https://github.com/bigxx/EASafeKeyboard.git", :tag => "#{spec.version}" }
-  spec.source_files = "EASafeKeyboard", "EASafeKeyboard/**/*.{h,m}"
-  spec.resource     = "EASafeKeyboard/Help/EASafeKeyboard.bundle"
+  spec.name         = 'EASafeKeyboard'
+  spec.version      = '1.0.3'
+  spec.summary      = '自定义安全键盘'
+  spec.platform     = :ios, '8.0'
+  spec.frameworks   = 'Foundation'
+  spec.description  = '自定义的安全键盘，数字键盘随机生成'
+  spec.homepage     = 'https://github.com/bigxx/EASafeKeyboard'
+  spec.license      = 'MIT'
+  spec.author       = { 'bigxx' => '305506026@qq.com' }
+  spec.ios.deployment_target = '8.0'
+  spec.source       = { :git => 'https://github.com/bigxx/EASafeKeyboard.git', :tag => '#{spec.version}' }
+  spec.source_files = 'EASafeKeyboard', 'EASafeKeyboard/**/*.{h,m}'
+  spec.resource     = 'EASafeKeyboard/Help/EASafeKeyboard.bundle'
 
 end
