@@ -19,7 +19,6 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.3"
   spec.summary      = "自定义安全键盘"
   spec.platform     = :ios, "8.0"
-  spec.iso.deployment_target = "8.0"
   spec.frameworks   = "Foundation"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
