@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "EASafeKeyboard", "EASafeKeyboard/**/*.{h,m}"
-  spec.resource = "EASafeKeyboard/Resource/EASafeKeyboard.bundle"
+  spec.resource = "EASafeKeyboard/Help/EASafeKeyboard.bundle"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
