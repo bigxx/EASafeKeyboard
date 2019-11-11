@@ -177,7 +177,7 @@ static NSString *EALetterCellIdentifier = @"EALetterCellIdentifier";
             }
         }
         // 点击了删除键
-        if (keyType == EADeleteKeyType) {
+        if (keyType == EAWorldDeleteKeyType) {
             if ([self.lkDelegate respondsToSelector:@selector(didLetterKeyboardDelete)]) {
                 [self.lkDelegate didLetterKeyboardDelete];
             }

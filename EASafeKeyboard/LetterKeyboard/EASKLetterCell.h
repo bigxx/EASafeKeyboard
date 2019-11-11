@@ -15,12 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 
  - EAWorldKeyType: 字母
  - EACapitalKeyType: 大写按钮
- - EADeleteKeyType: 删除按钮
+ - EAWorldDeleteKeyType: 删除按钮
  */
 typedef NS_ENUM(NSInteger,EALetterKeyType) {
     EAWorldKeyType = 0,
     EACapitalKeyType = 1,
-    EADeleteKeyType = 2
+    EAWorldDeleteKeyType = 2
 };
 
 /**

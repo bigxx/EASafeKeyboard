@@ -14,7 +14,7 @@
 
 @property (nonatomic, strong) UIButton *button;
 
-@property (nonatomic, assign) EANumKyeType keyType;
+@property (nonatomic, assign) EANumKeyType keyType;
 
 @end
 
@@ -65,7 +65,7 @@ static NSString *DeleteKey = @"删除";
     }
     // 标题为 删除，设置控件类型为 删除按钮
     if ([self.title isEqualToString:DeleteKey]) {
-        self.keyType = EADeleteKeyType;
+        self.keyType = EANumberDeleteKeyType;
     }
     
     // 设置按钮

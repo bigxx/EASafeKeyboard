@@ -11,18 +11,17 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- 数字键盘控件类型
+ 字母键盘控件类型
 
- - EANumberKeyType: 数字字母
- - EASwitchKeyType: 切换按钮
- - EADeleteKeyType: 删除按钮
- */
-typedef NS_ENUM(NSInteger,EANumKyeType) {
+ - EANumberKeyType: 数字
+ - EASwitchKeyType:切换到字母键盘
+ - EANumberDeleteKeyType: 删除按钮
+*/
+typedef NS_ENUM(NSInteger,EANumKeyType) {
     EANumberKeyType = 0,
     EASwitchKeyType = 1,
-    EADeleteKeyType = 2
+    EANumberDeleteKeyType = 2
 };
-
 
 /**
  点击数字回调
@@ -30,7 +29,7 @@ typedef NS_ENUM(NSInteger,EANumKyeType) {
  @param selectNumber 选中的数字
  @param keyType 控件类型
  */
-typedef void(^NumerBlock)(NSString *selectNumber,EANumKyeType keyType);
+typedef void(^NumerBlock)(NSString *selectNumber,EANumKeyType keyType);
 
 @interface EASKNumberCell : UICollectionViewCell
 

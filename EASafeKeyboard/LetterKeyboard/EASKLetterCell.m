@@ -65,7 +65,7 @@ static NSString *CapitalKey = @"大写";
     }
     // 标题为 删除，设置控件类型为 删除按钮
     if ([_title isEqualToString:DeleteKey]) {
-        self.keyType = EADeleteKeyType;
+        self.keyType = EAWorldDeleteKeyType;
     }
     // 设置按钮
     [self setButton];

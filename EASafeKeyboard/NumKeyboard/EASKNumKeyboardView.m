@@ -127,7 +127,7 @@ static const CGFloat LineSpace = 10;
     numberCell.title = self.numberArray[indexPath.row];
     
     // 点击数字回调
-    numberCell.numberBlock = ^(NSString *selectNumber, EANumKyeType keyType) {
+    numberCell.numberBlock = ^(NSString *selectNumber, EANumKeyType keyType) {
         // 点击事件：切换键盘
         if (keyType == EASwitchKeyType) {
             if ([self.nkDelegate respondsToSelector:@selector(didSwitchLetterPad)]) {
@@ -141,7 +141,7 @@ static const CGFloat LineSpace = 10;
             }
         }
         // 点击事件：删除
-        if (keyType == EADeleteKeyType) {
+        if (keyType == EANumberDeleteKeyType) {
             if ([self.nkDelegate respondsToSelector:@selector(didNumKeyboardDelete)]) {
                 [self.nkDelegate didNumKeyboardDelete];
             }
