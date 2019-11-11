@@ -11,16 +11,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 // 键盘背景色
-#define EASKBackgroundColor RGB(237, 236, 241)
+#define EASKBackgroundColor [UIColor colorWithRed:237/255.0 green:236/255.0 blue:241/255.0 alpha:1.0]
+
 // 文字颜色
-#define EASKTitleColor RGB(51, 51, 51)
+#define EASKTitleColor [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0]
 // 按钮背景色
-#define EASKButtonBackgroundColor RGB(29, 150, 227)
+#define EASKButtonBackgroundColor [UIColor colorWithRed:29/255.0 green:150/255.0 blue:227/255.0 alpha:1.0]
 // 间隔、线条颜色
-#define EASKSpaceColor RGB(230, 236, 241)
+#define EASKSpaceColor [UIColor colorWithRed:230/255.0 green:236/255.0 blue:241/255.0 alpha:1.0]
 
 // 键盘统一圆角
 #define EASKLayerRadius 5
+
+#define EAScreenW [[UIScreen mainScreen] bounds].size.width
+#define EAScreenH [[UIScreen mainScreen] bounds].size.height
 
 @interface EASafeKeyboardHelp : NSObject 
 

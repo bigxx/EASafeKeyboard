@@ -37,7 +37,7 @@ static const CGFloat KeyboardHeight = 218;
 - (EASafeKeyboardView *)keyboardView {
     if (!_keyboardView) {
         CGFloat tabbarSaveAreaHeight = [EASafeKeyboardHelp getTabbarSaveAreaHeight];
-        _keyboardView = [[EASafeKeyboardView alloc] initWithFrame:CGRectMake(0, 0, kScreenW, KeyboardHeight+tabbarSaveAreaHeight)];
+        _keyboardView = [[EASafeKeyboardView alloc] initWithFrame:CGRectMake(0, 0, EAScreenW, KeyboardHeight+tabbarSaveAreaHeight)];
         _keyboardView.delegate = self;
     }
     return _keyboardView;
