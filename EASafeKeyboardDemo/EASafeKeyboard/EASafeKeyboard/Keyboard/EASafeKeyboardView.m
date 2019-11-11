@@ -35,7 +35,7 @@
 }
 
 - (void)setMainUI {
-    self.backgroundColor = RGB(238, 238, 241);
+    self.backgroundColor = [UIColor colorWithRed:238/255.0 green:238/255.0 blue:241/255.0 alpha:1.0];
     [self setKeyboardView];
 }
 
