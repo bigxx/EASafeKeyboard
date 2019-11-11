@@ -18,7 +18,4 @@ green:(g)/255.f \
 blue:(b)/255.f \
 alpha:1.f]
 
-#define kScreenW                [[UIScreen mainScreen] bounds].size.width
-#define kScreenH                [[UIScreen mainScreen] bounds].size.height
-
 #endif /* PrefixHeader_pch */

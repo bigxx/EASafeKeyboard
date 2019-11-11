@@ -23,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 键盘统一圆角
 #define EASKLayerRadius 5
 
+#define EAScreenW [[UIScreen mainScreen] bounds].size.width
+#define EAScreenH [[UIScreen mainScreen] bounds].size.height
+
 @interface EASafeKeyboardHelp : NSObject 
 
 /**
