@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.source       = { :git => 'https://github.com/bigxx/EASafeKeyboard.git', :tag => '#{spec.version}' }
   spec.source_files = 'EASafeKeyboard', 'EASafeKeyboard/**/*.{h,m}'
-  spec.resource     = 'EASafeKeyboard/Help/EASafeKeyboard.bundle'
+  spec.resources    = 'EASafeKeyboard/Help/EASafeKeyboard.bundle'
 
 end
