@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EASafeKeyboard"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "自定义安全键盘"
   spec.platform     = :ios, "8.0"
   spec.iso.deployment_target = '8.0'
