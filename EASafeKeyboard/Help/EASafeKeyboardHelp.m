@@ -32,11 +32,14 @@
     UIView *containView = [[UIView alloc] initWithFrame:rect];
     containView.backgroundColor = [UIColor whiteColor];
 
+    // 获取图片
+    UIImage *bundleImg = [self getImageFromBundle:image];
+    
     // UIImageView
     CGFloat orignX = (rect.size.width-size.width)/2;
     CGFloat orignY = (rect.size.height-size.height)/2;
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(orignX, orignY, size.width, size.height)];
-    imageView.image = [UIImage imageNamed:image];
+    imageView.image = bundleImg;
     [containView addSubview:imageView];
     
     // 转换为UIImage
@@ -48,6 +51,15 @@
     UIGraphicsEndImageContext();
     
     return imageRet;
+}
+
+// MARK:从bundle获取图片
++ (UIImage *)getImageFromBundle:(NSString *)imgStr {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"EASafeKeyboard" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    NSString *imagePath = [bundle pathForResource:imgStr ofType:@"png"];
+    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+    return image;
 }
 
 @end
