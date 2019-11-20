@@ -5,6 +5,10 @@
 ---
 
 ## 使用
+### Pod
+pod 'EASafeKeyboard'
+
+### 手动创建
 创建*EASafeTextField*控件，该控件继承*UITextField*，可正常使用任何父类属性
 ```
    EASafeTextField *textField = [[EASafeTextField alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 50)];
