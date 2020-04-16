@@ -2,8 +2,8 @@
 //  EASKNumFunctionView.m
 //  CoinApp
 //
-//  Created by hym on 2019/9/2.
-//  Copyright © 2019 xfg. All rights reserved.
+//  Created by eAssh on 2019/9/2.
+//  Copyright © 2019 eAssh. All rights reserved.
 //
 
 #import "EAKNumFunctionView.h"

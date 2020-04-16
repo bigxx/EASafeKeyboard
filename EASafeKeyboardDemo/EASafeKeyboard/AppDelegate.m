@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  EASafeKeyboard
 //
-//  Created by sx on 2019/11/8.
-//  Copyright © 2019 sx. All rights reserved.
+//  Created by eAssh on 2019/11/8.
+//  Copyright © 2019 eAssh. All rights reserved.
 //
 
 #import "AppDelegate.h"
